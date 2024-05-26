@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d050e00-ab2f-4da9-b2f6-f64210558515" name="Changes" comment="tạo các class EasyHighScores, MediumHighScores, HardHighScores để ghi và đọc tệp điểm số vào Phương thức File()" />
+    <list default="true" id="3d050e00-ab2f-4da9-b2f6-f64210558515" name="Changes" comment="tạo các class EasyHighScores, MediumHighScores, HardHighScores để ghi và đọc tệp điểm số vào Phương thức File()">
+      <change afterPath="$PROJECT_DIR$/src/Clock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,6 +45,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/tinhh/OneDrive/Documents/CNPM/Project/src",
     "node.js.detected.package.eslint": "true",
@@ -95,6 +100,7 @@
       <workItem from="1715468764372" duration="35000" />
       <workItem from="1716206555618" duration="1152000" />
       <workItem from="1716726951325" duration="3847000" />
+      <workItem from="1716733988367" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="tạo các class EasyHighScores, MediumHighScores, HardHighScores để ghi và đọc tệp điểm số vào Phương thức File()">
       <created>1716730768768</created>
