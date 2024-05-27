@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3d050e00-ab2f-4da9-b2f6-f64210558515" name="Changes" comment="tạo các class EasyHighScores, MediumHighScores, HardHighScores để ghi và đọc tệp điểm số vào Phương thức File()">
-      <change afterPath="$PROJECT_DIR$/src/Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EasyHighScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EasyHighScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HardHighScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HardHighScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MediumHighScores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MediumHighScores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SidePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SidePanel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,25 +42,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SnakeGame.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/tinhh/OneDrive/Documents/CNPM/Project/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "D:/Github/GameSnake/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SnakeGame.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/tinhh/OneDrive/Documents/CNPM/Project/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/Github/GameSnake/src/Main.java&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tinhh\OneDrive\Documents\CNPM\Project\src" />
@@ -101,6 +104,7 @@
       <workItem from="1716206555618" duration="1152000" />
       <workItem from="1716726951325" duration="3847000" />
       <workItem from="1716733988367" duration="36000" />
+      <workItem from="1716817634740" duration="449000" />
     </task>
     <task id="LOCAL-00001" summary="tạo các class EasyHighScores, MediumHighScores, HardHighScores để ghi và đọc tệp điểm số vào Phương thức File()">
       <created>1716730768768</created>
