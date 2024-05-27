@@ -35,15 +35,15 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
+    &quot;associatedIndex&quot;: 8
+    }</component>
   <component name="ProjectId" id="2f0JxFiqKZ81fJs8V9IT6SXdIRq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
+    &quot;keyToString&quot;: {
     &quot;Application.SnakeGame.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
@@ -59,8 +59,8 @@
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/Github/GameSnake/src/Main.java&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
-  }
-}</component>
+    }
+    }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\tinhh\OneDrive\Documents\CNPM\Project\src" />

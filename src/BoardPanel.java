@@ -43,6 +43,63 @@ public class BoardPanel extends JPanel {
         return tiles[y * ROW_COUNT + x];
     }
 
+    private void drawTile(int x, int y, TileType type, Graphics g) {
 
+        switch(type) {
+            //Thuc an
+            case Fruit:
+                g.setColor(Color.RED);
+                g.fillOval(x + 2, y + 2, TILE_SIZE - 4, TILE_SIZE - 4);
+                break;
+            //Vat can(Tuong)
+            case Wall:
+                g.setColor(Color.YELLOW);
+                g.fillRect(x, y, TILE_SIZE, TILE_SIZE);
+                break;
+            //Than ran
+            case SnakeBody:
+                g.setColor(Color.LIGHT_GRAY);
+                g.fillOval(x + 2, y + 2, TILE_SIZE - 2 , TILE_SIZE - 2);
+                break;
+            //Dau ran
+            case SnakeHead:
+                g.setColor(Color.GREEN);
+                g.fillOval(x + 2, y + 2, TILE_SIZE - 2 , TILE_SIZE - 2);
+                g.setColor(Color.BLACK);
+
+//                switch(game.getDirection()) {
+//                    //Di len
+//                    case Up: {
+//                        int baseY = y + EYE_SMALL_INSET;
+//                        g.drawLine(x + EYE_LARGE_INSET, baseY, x + EYE_LARGE_INSET, baseY + EYE_LENGTH);
+//                        g.drawLine(x + TILE_SIZE - EYE_LARGE_INSET, baseY, x + TILE_SIZE - EYE_LARGE_INSET, baseY + EYE_LENGTH);
+//                        break;
+//                    }
+//                    //Di xuong
+//                    case Down: {
+//                        int baseY = y + TILE_SIZE - EYE_SMALL_INSET;
+//                        g.drawLine(x + EYE_LARGE_INSET, baseY, x + EYE_LARGE_INSET, baseY - EYE_LENGTH);
+//                        g.drawLine(x + TILE_SIZE - EYE_LARGE_INSET, baseY, x + TILE_SIZE - EYE_LARGE_INSET, baseY - EYE_LENGTH);
+//                        break;
+//                    }
+//                    //Di sang trai
+//                    case Left: {
+//                        int baseX = x + EYE_SMALL_INSET;
+//                        g.drawLine(baseX, y + EYE_LARGE_INSET, baseX + EYE_LENGTH, y + EYE_LARGE_INSET);
+//                        g.drawLine(baseX, y + TILE_SIZE - EYE_LARGE_INSET, baseX + EYE_LENGTH, y + TILE_SIZE - EYE_LARGE_INSET);
+//                        break;
+//                    }
+//                    //Di sang phai
+//                    case Right: {
+//                        int baseX = x + TILE_SIZE - EYE_SMALL_INSET;
+//                        g.drawLine(baseX, y + EYE_LARGE_INSET, baseX - EYE_LENGTH, y + EYE_LARGE_INSET);
+//                        g.drawLine(baseX, y + TILE_SIZE - EYE_LARGE_INSET, baseX - EYE_LENGTH, y + TILE_SIZE - EYE_LARGE_INSET);
+//                        break;
+//                    }
+//
+//                }
+                break;
+        }
+    }
 }
 
