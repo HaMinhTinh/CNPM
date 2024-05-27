@@ -1,4 +1,7 @@
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class HardHighScores {
     private PrintWriter printWriter;
@@ -32,5 +35,36 @@ public class HardHighScores {
             e.printStackTrace();
         }
     }
+
+    public void sort() {
+        try {
+            File file = new File("HardHighScores.txt");
+            FileReader fileReader = new FileReader("HardHighScores.txt");
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+
+            List<String> lines = new ArrayList<String>();
+            String line = null;
+
+            while((line = bufferedReader.readLine()) != null) {
+                lines.add(line);
+            }
+
+            bufferedReader.close();
+            Collections.sort(lines, Collections.reverseOrder());
+
+            // Mở FileWriter để ghi các dòng đã sắp xếp vào tệp
+            FileWriter fileWriter = new FileWriter("HardHighScores.txt");
+            for(String string : lines) {
+                fileWriter.write(string + "\r\n");
+            }
+
+            fileWriter.close();
+            file.setReadOnly();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
 }

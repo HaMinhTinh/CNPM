@@ -1,4 +1,7 @@
 import java.io.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class MediumHighScores {
     private PrintWriter printWriter;
@@ -33,5 +36,41 @@ public class MediumHighScores {
             e.printStackTrace();
         }
     }
+
+    public void sort() {
+        try {
+            File file = new File("MediumHighScores.txt");
+            file.setWritable(true);
+            file.setReadable(true);
+            FileReader fileReader = new FileReader("MediumHighScores.txt");
+
+            // Tạo đối tượng BufferedReader để đọc từng dòng từ FileReader
+            BufferedReader bufferedReader = new BufferedReader(fileReader);
+
+            List<String> lines = new ArrayList<String>();
+            String line = null;
+
+            // Đọc từng dòng từ tập tin và thêm vào danh sách
+            while ((line = bufferedReader.readLine()) != null) {
+                lines.add(line);
+            }
+
+            bufferedReader.close();
+            Collections.sort(lines, Collections.reverseOrder());
+
+            // Tạo đối tượng FileWriter để ghi lại vào tập tin
+            FileWriter fileWriter = new FileWriter("MediumHighScores.txt");
+
+            // Ghi từng dòng đã sắp xếp vào lại tập tin
+            for (String string : lines) {
+                fileWriter.write(string + "\r\n");
+            }
+            fileWriter.close();
+            file.setReadOnly();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
 
 }
