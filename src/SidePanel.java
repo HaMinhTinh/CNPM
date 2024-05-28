@@ -57,12 +57,10 @@ public class SidePanel extends JPanel {
         drawY = CONTROLS_OFFSET;
         g.drawString("Move Up: W / Up Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
         g.drawString("Move Down: S / Down Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
-        g.drawString("Move Left: A / Left Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
-    }
-}
+        g.drawString("Move Left: A / Left Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE)
         
-//        g.drawString("Move Right: D / Right Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
-//        g.drawString("Pause Game: P", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
+        g.drawString("Move Right: D / Right Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
+        g.drawString("Pause Game: P", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
     }
 
 }
