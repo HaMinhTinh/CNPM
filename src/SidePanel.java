@@ -27,37 +27,40 @@ public class SidePanel extends JPanel {
     //draw diem so nguoi choi
     @Override
     public void paintComponent(Graphics g) {
-//        super.paintComponent(g);
-//
-//        g.setColor(Color.WHITE);
-//
-//        g.setFont(LARGE_FONT);
-//        g.drawString("Snake Game", getWidth() / 2 - g.getFontMetrics().stringWidth("Snake Game") / 2, 50);
-//
-//        //Ten nguoi choi
-//        g.setFont(SMALL_FONT);
-//        g.drawString("Player name: " + game.getName(), getWidth() / 2 - 100, 110);
-//
-//        g.setFont(MEDIUM_FONT);
-//        g.drawString("Scoreboard:", SMALL_OFFSET, STATISTICS_OFFSET);
-//        g.drawString("Controls:", SMALL_OFFSET, CONTROLS_OFFSET);
-//
-//        g.setFont(SMALL_FONT);
-//
-//        int drawY = STATISTICS_OFFSET;
-//        //Tong so diem
-//        g.drawString("Total Score: " + game.getScore(), LARGE_OFFSET, drawY += MESSAGE_STRIDE);
-//        //So thuc an da an duoc
-//        g.drawString("Fruit Eaten: " + game.getFruitsEaten(), LARGE_OFFSET, drawY += MESSAGE_STRIDE);
-//        //Diem so hien tai cua thuc an do
-//        g.drawString("Fruit Score: " + game.getNextFruitScore(), LARGE_OFFSET, drawY += MESSAGE_STRIDE);
-//        //Man choi hien tai
-//        g.drawString("Difficulty: " + game.getDifficulty(), LARGE_OFFSET, drawY += MESSAGE_STRIDE);
-//        //Huong dan choi game
-//        drawY = CONTROLS_OFFSET;
-//        g.drawString("Move Up: W / Up Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
-//        g.drawString("Move Down: S / Down Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
-//        g.drawString("Move Left: A / Left Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
+        super.paintComponent(g);
+
+        g.setColor(Color.WHITE);
+
+        g.setFont(LARGE_FONT);
+        g.drawString("Snake Game", getWidth() / 2 - g.getFontMetrics().stringWidth("Snake Game") / 2, 50);
+
+        //Ten nguoi choi
+        g.setFont(SMALL_FONT);
+        g.drawString("Player name: " + game.getName(), getWidth() / 2 - 100, 110);
+
+        g.setFont(MEDIUM_FONT);
+        g.drawString("Scoreboard:", SMALL_OFFSET, STATISTICS_OFFSET);
+        g.drawString("Controls:", SMALL_OFFSET, CONTROLS_OFFSET);
+
+        g.setFont(SMALL_FONT);
+
+       int drawY = STATISTICS_OFFSET;
+        //Tong so diem
+        g.drawString("Total Score: " + game.getScore(), LARGE_OFFSET, drawY += MESSAGE_STRIDE);
+        //So thuc an da an duoc
+        g.drawString("Fruit Eaten: " + game.getFruitsEaten(), LARGE_OFFSET, drawY += MESSAGE_STRIDE);
+        //Diem so hien tai cua thuc an do
+        g.drawString("Fruit Score: " + game.getNextFruitScore(), LARGE_OFFSET, drawY += MESSAGE_STRIDE);
+        //Man choi hien tai
+        g.drawString("Difficulty: " + game.getDifficulty(), LARGE_OFFSET, drawY += MESSAGE_STRIDE);
+        //Huong dan choi game
+        drawY = CONTROLS_OFFSET;
+        g.drawString("Move Up: W / Up Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
+        g.drawString("Move Down: S / Down Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
+        g.drawString("Move Left: A / Left Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
+    }
+}
+        
 //        g.drawString("Move Right: D / Right Arrowkey", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
 //        g.drawString("Pause Game: P", LARGE_OFFSET, drawY += MESSAGE_STRIDE);
     }
